@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mediterrâneo</title>
+</head>
+<body>
+    <!-- ############ HEADER #############-->
+    <header>
+        <div id="green-header">
+            <div id="left">
+                <img id="logo" src="./assets/Albergue mediterraneo.png" alt="Logo">
+            </div>
+            <div id="right">
+                <img id="tButton" src="./assets/translator.png" alt="translator button">
+                <button id="lButton">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ############ MAIN SECTION #############-->
+    <div id="main">
+        <!-- DIV CONHEÇA NOSSAS INSTALAÇÕES-->
+        <div id="div1">
+            <img id="img1" src="./assets/1.png" alt="conheça nossas instalações">
+        </div>
+
+        <!-- DIV VERIFICAR DISPONIBILIDADE -->
+        <div id="div2">
+           <div id="form">
+                <h1>Verificar disponibilidade</h1>
+                <div id="conteiner">
+                    <div id="c1">
+                        <div id="a">
+                            <h2>Check-in</h2>
+                            <input class="data" type="date">
+                        </div>
+                        <div id="b">
+                            <h2>Check-out</h2>
+                            <input class="data" type="date">
+                        </div>
+                    </div>
+                    <div id="c2">
+                        <h2>Tipo de Quarto</h2>
+                        <select class="select">
+                            <option id="quarto" value="quarto">
+                                <span>Quarto Compartilhado</span>
+                            </option>
+                            <option id="suite" value="suite">
+                                <span>Suíte Casal</span>
+                            </option>
+                        </select>
+                    </div>
+                    <div id="c3">
+                        <div id="c">
+                            <h2>Hóspedes</h2>
+                            <select name="" class="select">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                            </select>
+                        </div>
+                        <div id="d">
+                            <h2>Disponibilidade</h2>
+                            <div id="white">
+                                <img id="disp" src="./assets/disponivel.png" alt="">
+                                <img id="indisp" src="./assets/indisponivel.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <button onclick="myClick()" id="vButton">Verificar</button>
+                    <a href="./reserva.html"><button id="rButton">Reservar!</button></a>
+                </div>
+           </div>
+        </div>
+    </div>
+
+    <!-- ############ FOOTER #############-->
+    <footer>
+        <div id="green-footer">
+            <div>
+                <a href=""><p class="link">Fale Conosco</p></a>
+            </div>
+            <div>
+                <a href=""><p class="link">Nossa História</p></a>
+            </div>
+            <div>
+                <a href=""><p class="link">FAQ</p></a>
+            </div>
+            <div>
+                <a href=""><p class="link">Regras</p></a>
+            </div>
+            <div>
+                <a href=""><p class="link">Dicas Turismo</p></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
