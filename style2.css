@@ -103,8 +103,9 @@ a {
 }
 
 #div1 {
+    margin-left: 170px;
     height: 80%;
-    width: 35%;
+    width: 100%;
     display: flex;
 }
 
